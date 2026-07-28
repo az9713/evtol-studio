@@ -3,6 +3,8 @@
 Browser eVTOL flight studio: an articulated multirotor flown over a procedural city,
 with a Blade-Element-Momentum-lite rotor model driving the power numbers on the HUD.
 
+**Fly it:** https://az9713.github.io/evtol-studio/ (or `npm install && npm run dev`)
+
 Phases 0-1 of the spec (`docs/three-ambitious-simulation-specs.html`, eVTOL tab):
 city scene, articulated aircraft, 6-DOF free flight, per-rotor BEM rotor and power model.
 
