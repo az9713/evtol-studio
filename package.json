@@ -1,0 +1,21 @@
+{
+  "name": "evtol-studio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "check": "rolldown test/flight-check.ts --file .check/flight-check.mjs --format esm --platform node && node .check/flight-check.mjs && rolldown test/scene-check.ts --file .check/scene-check.mjs --format esm --platform node && node .check/scene-check.mjs"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.1",
+    "rolldown": "^1.1.5",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  }
+}
